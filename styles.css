@@ -119,5 +119,32 @@ body{
     color: var(--cor-primaria);
 }
 
+.rodape{
+    text-align: center;
+}
+
+.rodape__lista{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin: 1em;
+}
+
+.rodape__lista__item{
+    margin: 1em;
+}
+
+.rodape__lista__item__link{
+    color: var(--cor-primaria);
+    font-style: none;
+    text-decoration: none;
+}
+
+.rodape__texto{
+    color: var(--cor-secundaria);
+    padding: 1em;
+    font-size: 14px;
+}
+
 
 
