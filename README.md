@@ -1,4 +1,3 @@
-# AluraPlus
 <h1 align="center"> Alura+ </h1>
 
 <p align="center">
