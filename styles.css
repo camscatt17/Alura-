@@ -43,7 +43,7 @@ body{
     font-weight: 700;
 }
 
-.container__img{
+.principal__img{
     margin: 1em 0 2em 0;
 }
 
@@ -51,8 +51,6 @@ body{
     background-color: var(--cor-botao-background);
     color:var(--cor-primaria);
     border-radius: 8px;
-    width: 512px;
-    height: 56px;
     padding: 1em;
     display: block;
     text-decoration: none;
@@ -68,5 +66,37 @@ body{
     background-color: transparent;
     border: 2px solid var(--cor-primaria);
     color: var(--cor-primaria);
+}
+
+.secundario{
+    align-items: center;
+    margin: 0 10rem;
+}
+
+.secundario__img{
+    width: 80%;
+}
+
+.container__descricao{
+    padding: 2em;
+}
+
+.descricao__titulo{
+    font-weight: 700;
+    font-size: 48px;
+    color: var(--cor-primaria);
+    margin-bottom: 0.1em;
+}
+
+.descricao__texto{
+    color: var(--cor-secundaria);
+}
+
+.secundario__botao{
+    display: inline-block;
+    margin-top: 1em;
 
 }
+
+
+
